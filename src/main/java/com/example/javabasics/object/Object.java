@@ -64,26 +64,4 @@ Utilizziamo il metodo notify() e wait() per la sincronizzazione tra thread. Ques
 In sintesi, la classe Object fornisce una serie di metodi comuni che sono ereditati da tutte
 le altre classi in Java. Questi metodi possono essere utili per operazioni come il confronto
  di oggetti, la generazione di codici hash, la rappresentazione in formato stringa e la
- gestione della concorrenza.Spiegazione:
-
-Creiamo due oggetti di tipo String chiamati str1 e str2.
-
-Usiamo il metodo equals() per confrontare i due oggetti str1 e str2. Questo metodo confronta
-il contenuto delle stringhe e restituisce true se sono uguali.
-
-Utilizziamo il metodo hashCode() per ottenere l'hash code dell'oggetto str1. Questo è un
-numero intero che rappresenta un identificatore unico per l'oggetto.
-
-Il metodo toString() restituisce una rappresentazione in formato stringa dell'oggetto.
-In questo caso, otteniamo una stringa che contiene il contenuto di str1.
-
-Il metodo getClass() restituisce l'oggetto Class associato all'oggetto. In questo caso,
-otteniamo la classe della stringa str1.
-
-Utilizziamo il metodo notify() e wait() per la sincronizzazione tra thread. Questi metodi
-sono utilizzati per la comunicazione tra thread e la gestione della concorrenza.
-
-In sintesi, la classe Object fornisce una serie di metodi comuni che sono ereditati da tutte
- le altre classi in Java. Questi metodi possono essere utili per operazioni come il confronto
-  di oggetti, la generazione di codici hash, la rappresentazione in formato stringa e
-  la gestione della concorrenza. */
+ gestione della concorrenza. */

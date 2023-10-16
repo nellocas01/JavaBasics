@@ -16,7 +16,7 @@ public class Variables {
     boolean isSoleilSunny;  // Variabile di istanza di tipo boolean
 
     // Variabile statica
-    static int contatore = 0;
+    static int contatore = 10;
 
     public static void main(String[] args) {
         // Variabile locale
@@ -48,7 +48,7 @@ public class Variables {
 
 
 
-/* piegazione:
+/* spiegazione:
 
 In questo esempio, dichiariamo variabili di diversi tipi:
 

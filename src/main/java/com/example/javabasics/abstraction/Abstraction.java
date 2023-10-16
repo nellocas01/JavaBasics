@@ -1,7 +1,7 @@
 package com.example.javabasics.abstraction;
 
 /*
-*Astrazione è uno dei principi fondamentali dell'Orientamento agli Oggetti e si riferisce alla capacità
+* Astrazione è uno dei principi fondamentali dell'Orientamento agli Oggetti e si riferisce alla capacità
 * di nascondere i dettagli di implementazione e fornire un'interfaccia semplificata per l'interazione
 * con un oggetto o una classe. In Java, l'astrazione può essere implementata attraverso classi
 * astratte e interfacce.
@@ -48,3 +48,17 @@ public class Abstraction {
     }
 }
 
+/* come funziona il codice:
+
+Veicolo è una classe astratta con un metodo astratto getTipo() che deve essere implementato
+ dalle sue sottoclassi. La classe astratta può anche avere metodi concreti (come avvia() nel
+  tuo caso) con un'implementazione predefinita che può essere ereditata dalle sottoclassi.
+
+Auto ed Moto sono due sottoclassi di Veicolo. Ogniuna di queste sottoclassi implementa il
+metodo astratto getTipo() in modo specifico per restituire il tipo di veicolo ("Auto" o "Moto").
+
+Nel metodo main, vengono creati due oggetti, veicolo1 e veicolo2, di tipo Veicolo. Tuttavia,
+ poiché Veicolo è una classe astratta, non è possibile crearne direttamente oggetti. Invece,
+ vengono creati oggetti delle sottoclassi Auto e Moto, ma vengono assegnati a variabili di tipo Veicolo.
+
+Successivamente, vengono chiamati i metodi getTipo() e avvia() sugli oggetti veicolo1 e `veicolo2. */

@@ -2,7 +2,7 @@ package com.example.javabasics.methods;
 
 /* In Java, i metodi sono blocchi di codice che eseguono una serie di istruzioni
 specifiche quando vengono chiamati. I metodi consentono di organizzare il codice in
-unità più piccole e riutilizzabili, rendendo il codice più leggibile e manutenibile.
+unità più piccole e riutilizzabili, rendendo il codice più leggibile.
  Ecco una spiegazione e un esempio di come funzionano i metodi in Java:
 
 Sintassi di base:
@@ -27,6 +27,7 @@ public class Methods {
     public static void main(String[] args) {
         saluta("Alice");
         saluta("Bob");
+        saluta("Jimmy");
     }
 
     // Metodo che saluta una persona

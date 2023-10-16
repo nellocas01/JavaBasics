@@ -1,8 +1,8 @@
 package com.example.javabasics.operators;
 
 /* Gli operatori in Java sono simboli speciali utilizzati per eseguire operazioni su variabili e
-valori. Possono essere suddivisi in diverse categorie, tra cui operatori aritmetici, operatori d
-i confronto, operatori logici e altri. Ecco una spiegazione e alcuni esempi di operatori in Java:
+valori. Possono essere suddivisi in diverse categorie, tra cui operatori aritmetici, operatori di
+ confronto, operatori logici e altri. Ecco una spiegazione e alcuni esempi di operatori in Java:
 
 Operatori Aritmetici:
 

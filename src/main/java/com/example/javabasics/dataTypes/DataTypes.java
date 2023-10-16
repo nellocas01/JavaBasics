@@ -50,7 +50,7 @@ public class DataTypes {
     }
 }
 
-/* Certamente, ecco una spiegazione dei tipi di dati inclusi nel codice:
+/* ecco una spiegazione dei tipi di dati inclusi nel codice:
 
 1. **byte**: `byte` è un tipo di dato primitivo che rappresenta numeri interi con un
  raggio di -128 a 127. Nell'esempio, `valoreByte` è stato dichiarato come un `byte` con un valore di 123.

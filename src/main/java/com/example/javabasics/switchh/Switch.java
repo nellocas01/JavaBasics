@@ -34,7 +34,7 @@ Ecco un esempio con un caso switch che determina il giorno della settimana in ba
 
 public class Switch {
     public static void main(String[] args) {
-        int giorno = 75;
+        int giorno = 5;
 
         switch (giorno) {
             case 1:
@@ -62,8 +62,8 @@ public class Switch {
     }
 }
 
-/* In questo esempio, la variabile giorno è impostata su 3, e l'istruzione switch d
-etermina che è mercoledì e stampa "Mercoledì". Se il valore non corrisponde a nessun caso,
+/* In questo esempio, la variabile giorno è impostata su 3, e l'istruzione switch
+determina che è mercoledì e stampa "Mercoledì". Se il valore non corrisponde a nessun caso,
 viene eseguito il blocco di codice del caso default.
 
 L'istruzione switch è utile quando si desidera selezionare tra diverse opzioni basate su

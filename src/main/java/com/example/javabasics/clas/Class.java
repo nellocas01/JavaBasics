@@ -49,7 +49,8 @@ La classe Persona ha due campi, nome (di tipo String) ed età (di tipo int), che
 le proprietà di un oggetto di tipo Persona.
 
 Il costruttore Persona è un metodo speciale che viene chiamato quando viene creato un nuovo
- oggetto di tipo Persona. Accetta due parametri, nomeedetà`, e inizializza i campi della classe con i valori passati.
+ oggetto di tipo Persona. Accetta due parametri, nome ed età`, e inizializza i campi della classe con i
+ valori passati.
 
 La classe Persona ha due metodi, saluta() e festeggiaCompleanno(). Il metodo saluta()
 stampa un messaggio di saluto che include il nome e l'età dell'oggetto Persona, mentre

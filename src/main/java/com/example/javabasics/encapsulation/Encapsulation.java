@@ -2,8 +2,8 @@ package com.example.javabasics.encapsulation;
 
 
 /* L'incapsulamento (encapsulation) è uno dei principi fondamentali dell'orientamento agli oggetti
-ed è una tecnica che consente di nascondere i dettagli interni di un oggetto e di esporre solo le
- ùfunzionalità pubbliche attraverso metodi e campi (variabili) pubblici. In Java, l'incapsulamento
+ ed è una tecnica che consente di nascondere i dettagli interni di un oggetto e di esporre solo le
+ funzionalità pubbliche attraverso metodi e campi (variabili) pubblici. In Java, l'incapsulamento
  è ampiamente utilizzato per garantire che gli oggetti mantengano uno stato coerente e per ridurre
  la complessità del codice.
 

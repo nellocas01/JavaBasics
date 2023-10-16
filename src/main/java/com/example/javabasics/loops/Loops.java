@@ -82,7 +82,7 @@ public class Loops {
 
         // Ciclo for-each su un array
         System.out.println("\nCiclo for-each su un array:");
-        int[] numeri = {1, 2, 3, 4, 5};
+        int[] numeri = {1, 2, 3, 4, 5, 6};
         for (int numero : numeri) {
             System.out.println(numero);
         }
