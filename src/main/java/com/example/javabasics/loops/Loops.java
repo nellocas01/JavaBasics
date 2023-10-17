@@ -11,8 +11,6 @@ Il ciclo for è utilizzato quando sai in anticipo quante volte vuoi ripetere un 
 
 Esempio:
 
-java
-Copy code
 for (int i = 1; i <= 5; i++) {
     System.out.println("Iterazione " + i);
 }
@@ -26,8 +24,6 @@ blocco di codice deve essere eseguito fintanto che la condizione è vera.
 
 Esempio:
 
-java
-Copy code
 int contatore = 1;
 while (contatore <= 5) {
     System.out.println("Iterazione " + contatore);
@@ -42,8 +38,6 @@ Il ciclo do-while è simile al ciclo while, ma garantisce che il blocco di codic
 
 Esempio:
 
-java
-Copy code
 int contatore = 1;
 do {
     System.out.println("Iterazione " + contatore);

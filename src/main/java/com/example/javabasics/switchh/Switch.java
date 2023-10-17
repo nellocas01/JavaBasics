@@ -8,8 +8,6 @@ di come funziona l'istruzione switch:
 
 Sintassi di base:
 
-java
-Copy code
 switch (espressione) {
     case valore1:
         // Blocco di codice da eseguire quando l'espressione è uguale a valore1
@@ -24,11 +22,14 @@ switch (espressione) {
     default:
         // Blocco di codice da eseguire se nessun caso corrisponde all'espressione
 }
+
 L'espressione è la variabile o l'espressione valutata di cui si desidera controllare il valore.
+
 I case definiscono i diversi valori possibili che l'espressione può assumere e specificano il
 blocco di codice da eseguire quando l'espressione è uguale a quel valore.
 Il blocco di codice all'interno di ciascun case viene eseguito fino a quando si raggiunge
 l'istruzione break o la fine del blocco switch.
+
 Ecco un esempio con un caso switch che determina il giorno della settimana in base a un numero: */
 
 

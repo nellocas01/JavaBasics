@@ -12,8 +12,6 @@ Ecco un esempio di polimorfismo in Java con una spiegazione:
 Esempio di Polimorfismo: */
 
 
-
-
 // Classe base (superclasse)
 class Animale {
     public void emettiSuono() {

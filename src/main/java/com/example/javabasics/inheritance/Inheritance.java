@@ -5,7 +5,9 @@ che eredita attributi e metodi da una superclasse (classe genitore).
 La extends parola chiave viene utilizzata per indicare questa relazione.
 
 Nell'esempio fornito, la Car-classe è la sottoclasse ed eredita attributi e
-metodi dalla Inheritance-classe, che è la superclasse. Ecco una spiegazione del codice */
+metodi dalla Inheritance-classe, che è la superclasse.
+
+Ecco una spiegazione del codice */
 public class Inheritance {
     protected String brand = "Ford";  // Attribute in the superclass
     public void honk() {  // Method in the superclass

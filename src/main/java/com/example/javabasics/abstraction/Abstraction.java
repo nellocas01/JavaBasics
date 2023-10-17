@@ -6,7 +6,6 @@ package com.example.javabasics.abstraction;
 * con un oggetto o una classe. In Java, l'astrazione può essere implementata attraverso classi
 * astratte e interfacce.
 * Ecco un esempio di astrazione in Java utilizzando classi astratte e interfacce:
-* Esempio 1: Astrazione con una Classe Astratta
 * */
 
 // Classe astratta che rappresenta un veicolo
@@ -48,13 +47,14 @@ public class Abstraction {
     }
 }
 
-/* come funziona il codice:
+/* ********************** Spiegazione:
 
 Veicolo è una classe astratta con un metodo astratto getTipo() che deve essere implementato
- dalle sue sottoclassi. La classe astratta può anche avere metodi concreti (come avvia() nel
-  tuo caso) con un'implementazione predefinita che può essere ereditata dalle sottoclassi.
+ dalle sue sottoclassi.
+ La classe astratta può anche avere metodi concreti (come avvia() nel tuo caso) con
+  un'implementazione predefinita che può essere ereditata dalle sottoclassi.
 
-Auto ed Moto sono due sottoclassi di Veicolo. Ogniuna di queste sottoclassi implementa il
+Auto e Moto sono due sottoclassi di Veicolo. Ognuna di queste sottoclassi implementa il
 metodo astratto getTipo() in modo specifico per restituire il tipo di veicolo ("Auto" o "Moto").
 
 Nel metodo main, vengono creati due oggetti, veicolo1 e veicolo2, di tipo Veicolo. Tuttavia,

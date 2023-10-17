@@ -13,10 +13,7 @@ possono essere suddivisi in due categorie principali: tipi di dati primitivi
  (primitive data types) e tipi di dati di riferimento (reference data types).
 
 Ecco alcuni esempi di tipi di dati in Java:
-
-Ecco un esempio di utilizzo di tipi di dati in Java: */
-
-
+*/
 public class DataTypes {
     public static void main(String[] args) {
         // Tipi di dati primitivi

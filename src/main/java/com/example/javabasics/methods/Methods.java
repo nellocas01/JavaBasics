@@ -7,20 +7,24 @@ unità più piccole e riutilizzabili, rendendo il codice più leggibile.
 
 Sintassi di base:
 
-java
-Copy code
 tipo_di_ritorno nomeDelMetodo(parametri) {
     // Corpo del metodo
     // Esecuzione delle istruzioni
     return valore_di_ritorno; // opzionale
 }
+
 tipo_di_ritorno: Specifica il tipo di dato che il metodo restituirà come risultato.
+
 Se il metodo non restituisce un valore, il tipo di ritorno è void.
+
 nomeDelMetodo: È il nome del metodo.
+
 parametri: Sono gli eventuali dati di input che il metodo riceve. I parametri sono
 separati da virgole.
+
 valore_di_ritorno: Se il metodo restituisce un valore, l'istruzione return viene utilizzata
 per restituirlo. Il tipo di ritorno del valore deve corrispondere al tipo di ritorno dichiarato nel metodo.
+
 Ecco un esempio di un semplice metodo che calcola la somma di due numeri: */
 
 public class Methods {
@@ -39,5 +43,5 @@ public class Methods {
 /*
 In questo esempio, abbiamo un metodo statico chiamato saluta che prende un
 parametro di tipo String chiamato nome. Nel metodo main, chiamiamo il metodo
- saluta due volte, passando i nomi "Alice" e "Bob". Il metodo saluta stampa un
+ saluta due volte, passando i nomi "Alice" e "Bob". Il metodo saluta, stampa un
  saluto personalizzato utilizzando il nome passato come argomento. */

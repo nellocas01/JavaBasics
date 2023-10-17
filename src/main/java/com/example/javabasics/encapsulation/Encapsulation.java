@@ -8,9 +8,7 @@ package com.example.javabasics.encapsulation;
  la complessità del codice.
 
 Ecco un esempio di incapsulamento in Java con una spiegazione:
-
-Esempio di Incapsulamento: */
-
+*/
  class Persona {
     private String nome;   // Campo privato
     private int eta;        // Campo privato
@@ -61,7 +59,7 @@ public class Encapsulation {
     }
 }
 
-/* ****************Spiegazione:
+/* **************** Spiegazione:
 
 Nella classe Persona, i campi nome ed età sono dichiarati come privati (private),
 il che significa che non sono accessibili direttamente da altre classi.
